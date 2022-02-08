@@ -1,38 +1,67 @@
-.App {
-  text-align: center;
+.fon{
+  background-image: url("./image/Rectangle.png");
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-size: contain;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.menu{
+  display: flex; 
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  gap: 6rem;
+  font-size: 15px;
+  color: aliceblue;
+  padding: 25px;
+  list-style: none;
+}
+.menu button{
+  padding: 10px 30px;
+  background-color: #0db846;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.text{
+  text-align: center;
+  padding: 10rem;
+  font-size: 2rem;
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.text button{
+  padding: 15px 35px;
+  background-color: #1a4428;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 20px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.ttttt{
+  background-color: #497557;
+  position: absolute;
+  width: 400px;
+  right: 4rem;
+  padding: 20px;
+  text-align: start;
+}
+.ttttt p{
+  font-size: 20px;
+}
+.ttttt button{
+  font-size: 10px;
+}
+.text-end{
+  display: flex;
+  justify-content: center;
+  font-size: 20px;
+  padding-top: 18rem;
+  gap: 2rem;
+}
+.find{
+  display: flex;
+  justify-content: space-around;
+}
+.text-fi{
+  color: #5B5855;
+  font-size: 15px;
 }
